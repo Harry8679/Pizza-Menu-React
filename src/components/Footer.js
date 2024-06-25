@@ -12,7 +12,7 @@ const Footer = () => {
 //     alert('Sorry we\'re closed');
 //   }
   return (
-    <footer>
+    <footer className='footer'>
       {new Date().toLocaleTimeString()} We're currently open
     </footer>
   )

@@ -3,12 +3,12 @@ import Pizza from './Pizza';
 
 const Menu = () => {
   return (
-    <div>
-      <h1>Our Menu</h1>
+    <main className='menu'>
+      <h2>Our Menu</h2>
       <Pizza />
       <Pizza />
       <Pizza />
-    </div>
+    </main>
   )
 }
 
