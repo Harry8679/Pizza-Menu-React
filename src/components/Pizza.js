@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Pizza = () => {
+const Pizza = ({ name, ingredient, photoName, price }) => {
   return (
-    <div>
-      <img src="pizzas/spinaci.jpg" alt="pizza" />
-      <h3>Pizza Spinaci</h3>
+    <div className="pizza">
+      <img src={photoName} alt={name} />
+      <div>
+        <h3>{name}</h3>
+        <p>{ingredient}</p>
+        <span>{price} €</span>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Pizza;
