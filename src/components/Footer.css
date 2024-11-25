@@ -1,9 +1,18 @@
 .footer {
-    color: black;
-    font-size: 40px;
-}
-
-.footer .btn-text {
     display: flex;
-    align-items: center;
-}
+    flex-direction: column; /* Permet d'empiler les éléments (texte + bouton) verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    color: black;
+    font-size: 16px;
+  }
+  
+  .footer p {
+    margin: 0; /* Supprime les marges par défaut pour éviter un décalage visuel */
+    text-align: center;
+  }
+  
+  .footer .btn-text {
+    margin-top: 10px; /* Ajoute un espace entre le texte et le bouton */
+  }
+  
