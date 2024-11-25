@@ -17,9 +17,10 @@ const Footer = () => {
     <footer className="footer" style={{ color: "black", fontSize: "16px" }}>
       <p>
         {isOpen
-          ? `${new Date().toLocaleTimeString()} We're currently open`
+          ? `${new Date().toLocaleTimeString()}: We're currently open until ${closeHour}h`
           : "Sorry, we're closed"}
       </p>
+      <button className="btn btn-text">Order</button>
     </footer>
   );
 };
