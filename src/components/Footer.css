@@ -1,9 +1,9 @@
 .footer {
     color: black;
-    font-size: 32px;
-  }
+    font-size: 40px;
+}
 
-  .footer .btn-text {
+.footer .btn-text {
     display: flex;
     align-items: center;
-  }
+}

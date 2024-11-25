@@ -14,7 +14,7 @@ const Footer = () => {
   console.log("Is open:", isOpen);
 
   return (
-    <footer className="footer" style={{ color: "black", fontSize: "16px" }}>
+    <footer className="footer">
       <p>
         {isOpen
           ? `${new Date().toLocaleTimeString()}: We're currently open until ${closeHour}h`
